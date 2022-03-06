@@ -12,14 +12,14 @@
 	使用语料库只需要使用上述两个文件。在文件夹devset和testset中，您将分别找到用于训练和测试的推文数据。每个数据集的推文共享了一些基于推文和用户特征等附加功能。
 
 ## 训练集devset：
-image.txt：image_id；image_url	；annotation；event
-tweets.txt：tweetId；tweetText；userId；imageId(s)；username；timestamp；label
-devset_image文件夹：11个事件文件夹内分fakes & reals文件夹，包括360张带标签图片
-imageId(s)对应图片文件夹内图片的文件名，1w4条推文
+image.txt：image_id；image_url ；annotation；event	
+tweets.txt：tweetId；tweetText；userId；imageId(s)；username；timestamp；label	
+devset_image文件夹：11个事件文件夹内分fakes & reals文件夹，包括360张带标签图片	
+imageId(s)对应图片文件夹内图片的文件名，1w4条推文	
 
 ## 测试集testset：
 tweets.txt：tweetId；tweetText；userId；imageId(s)；username；timestamp；label
 testset_image文件夹：6个事件文件夹内分fakes & reals文件夹，包括50张无标签图片 
 imageId(s)对应图片文件夹内图片的文件名，4k条推文
 
-## 另外还有2k条推文未分配
+另外还有2k条推文未分配
