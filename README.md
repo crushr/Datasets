@@ -1,4 +1,4 @@
-# image-verification-corpus from mediaeval benchmark 2015/2016
+## image-verification-corpus from mediaeval benchmark 2015/2016
 
 2015数据集是一组与多模态内容相关联的推特推文，以及通过这些推文共享的相应多模态内容URL。总体而言，目前在约 10 次事件（桑迪飓风、波士顿马拉松爆炸案等）的背景下，约 2万条不同的推文中使用了约 400 张图像。
 任务中考虑了不同的误导性类型：  
